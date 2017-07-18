@@ -1,7 +1,7 @@
 ﻿/*h1 {
     color:blue;
 }*/
-#firstHeading {
+/*#firstHeading {
     color:blue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -11,4 +11,27 @@ body {
 .introText {
     color:white;
     font-family:'Roboto', sans-serif;
+}*/
+#firstHeading {
+    text-align:center;
+}
+.threeCols {
+    column-count:3;
+    column-gap:15px;
+}
+#fullWidthP {
+    column-span:all;
+}
+/*div p {
+    column-span:none;
+}*/
+p {
+    text-align:justify;
+}
+.stubbornP {
+    margin-top:0px;
+}
+.twoCols {
+    column-count:2;
+    column-gap:15px;
 }
